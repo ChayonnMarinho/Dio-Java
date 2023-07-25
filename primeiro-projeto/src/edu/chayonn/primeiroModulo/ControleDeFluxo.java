@@ -20,6 +20,7 @@ public class ControleDeFluxo {
             System.out.println("Você sacou " + valorSaque + " reais. Seu saldo atual é " + saldo + " reais.");
         } else{
             System.out.println("Saldo indisponível para saque.");
-        }      
-    }    
+        }        
+        scanner.close();
+    }  
 }
