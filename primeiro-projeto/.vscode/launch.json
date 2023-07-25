@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DoWhile",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.DoWhile",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
+            "name": "While",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.While",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
+            "name": "BreakContinue",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.BreakContinue",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
+            "name": "ForEach",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.ForEach",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "edu.chayonn.primeiroModulo.SwitchCase",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
             "name": "OperadorTernario",
             "request": "launch",
             "mainClass": "edu.chayonn.primeiroModulo.OperadorTernario",
