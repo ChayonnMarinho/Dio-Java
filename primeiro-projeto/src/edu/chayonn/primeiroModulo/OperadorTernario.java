@@ -26,7 +26,7 @@ public class OperadorTernario {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("Digite a nota do aluno: ");
         double nota1 = scanner.nextDouble();
-        String resultado = nota1>=7.0 ? "Aprovado" : "Reprovado";
+        String resultado = nota1>=7.0 ? "Aprovado" : nota1>=5 && nota1<7 ? "Recuperação":"Reprovado";
         System.out.println(resultado);
 
         scanner.close();
