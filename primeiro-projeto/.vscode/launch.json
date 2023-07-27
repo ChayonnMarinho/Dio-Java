@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorDeCepExemplo",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.FormatadorDeCepExemplo",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
+            "name": "TryCatch",
+            "request": "launch",
+            "mainClass": "edu.chayonn.segundoModulo.TryCatch",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
             "name": "DoWhile",
             "request": "launch",
             "mainClass": "edu.chayonn.segundoModulo.DoWhile",
