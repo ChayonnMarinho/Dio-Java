@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Clinica",
+            "request": "launch",
+            "mainClass": "com.teste.clinical.model.Clinica",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
             "name": "Desafio3",
             "request": "launch",
             "mainClass": "edu.chayonn.segundoModulo.Desafio3",
