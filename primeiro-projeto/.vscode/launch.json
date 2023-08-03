@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "faculdade",
+            "request": "launch",
+            "mainClass": "edu.chayonn.terceiroModulo.faculdade",
+            "projectName": "primeiro-projeto_73b98b6d"
+        },
+        {
+            "type": "java",
             "name": "Fabrica",
             "request": "launch",
             "mainClass": "com.teste.equipamentos.estabelecimento.Fabrica",
