@@ -11,12 +11,14 @@ public class faculdade {
         String nome;    
         
 
-        Scanner scanner = new java.util.Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new java.util.Scanner(System.in).useLocale(Locale.US); 
 
         System.out.println("Digite o número de alunos: ");
-        n = scanner.nextInt();       
+        n = scanner.nextInt(); 
+            
+       
 
-        for(i=0;i<n;i++){
+        for(i=0;i<n;i++){            
             System.out.println("Digite o nome do aluno " + (i+1) + ":");
             nome = scanner.next();
             System.out.println("Digite a primeira nota do aluno " + (i+1) + ":");
@@ -27,7 +29,7 @@ public class faculdade {
             nota3 = scanner.nextDouble();
             System.out.println("Digite a quarta nota do aluno " + (i+1) + ":");
             nota4 = scanner.nextDouble();
-            media = (nota1+nota2+nota3+nota4)/4;
+            media = (nota1+nota2+nota3+nota4)/4;           
                         
             if(media>=7.0){
                 System.out.println("Aluno aprovado");
@@ -47,8 +49,7 @@ public class faculdade {
             System.out.println("Terceira nota: " + nota3);
             System.out.println("Quarta nota: " + nota4);
             System.out.println("Média final: " + media);  
-        }     
-          
-     scanner.close();  
+        }                 
+        
     }    
 }
