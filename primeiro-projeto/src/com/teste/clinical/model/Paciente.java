@@ -7,7 +7,8 @@ public class Paciente {
     private int idade;
     private String cpf;
     private String rg;
-    
+    private int telefone;  
+
 
     public Paciente() {
     }
@@ -47,6 +48,15 @@ public class Paciente {
 
     public void setRg(String rg) {
         this.rg = rg;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
+
+
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
     }
     
 }
